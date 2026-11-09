@@ -1,0 +1,74 @@
+{
+  "package_id": "PKG-006",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-23",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "restaurant",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_summitridgekitchenta.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [],
+  "benign_variations": [
+    "email_eff",
+    "email_ft"
+  ],
+  "expected_issues": [],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Summit Ridge Kitchen & Tap Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "83-8975050",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "8959 Station Rd, Phoenix, AZ 85004",
+    "applicant.years_in_business": 11,
+    "applicant.naics": "722511",
+    "contact.name": "Tom Chowdhury",
+    "contact.email": "tom.chowdhury@summitridgekitchen.example",
+    "contact.phone": "(602) 555-0119",
+    "operations.description": "Full-service restaurant with bar, 120 seats, no live entertainment",
+    "financials.annual_revenue": 2110000.0,
+    "financials.total_payroll": 594000.0,
+    "workforce.full_time_employees": 8,
+    "workforce.part_time_employees": 1,
+    "policy.effective_date": "2026-12-17",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Meridian Fire & Casualty",
+    "prior.expiration_date": "2026-12-17",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "9079",
+        "employees": 8,
+        "payroll": 534600.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 1,
+        "payroll": 59400.0
+      }
+    ]
+  }
+}

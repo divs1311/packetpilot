@@ -1,0 +1,88 @@
+{
+  "package_id": "PKG-021",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-24",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "bakery",
+  "files": [
+    "cedarpointbakehousei_application.pdf",
+    "client_email.eml",
+    "gl_supplement.pdf",
+    "loss_run_cedarpointbakehousei.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "stale_loss_run",
+    "employee_mismatch"
+  ],
+  "benign_variations": [
+    "email_rev",
+    "email_eff",
+    "supplement_name_variant"
+  ],
+  "expected_issues": [
+    {
+      "code": "STALE_LOSS_RUN",
+      "field_path": null,
+      "subject": null
+    },
+    {
+      "code": "EMPLOYEE_COUNT_MISMATCH",
+      "field_path": "workforce.full_time_employees",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Cedar Point Bakehouse Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "31-9947326",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "8824 Cedar Ave, Denver, CO 80202",
+    "applicant.years_in_business": 5,
+    "applicant.naics": "311811",
+    "contact.name": "Raj Moreau",
+    "contact.email": "raj.moreau@cedarpointbakehous.example",
+    "contact.phone": "(303) 555-0121",
+    "operations.description": "Retail bakery producing breads and pastries sold on premises",
+    "financials.annual_revenue": 1450000.0,
+    "financials.total_payroll": 425000.0,
+    "workforce.full_time_employees": 7,
+    "workforce.part_time_employees": 2,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Northstar Indemnity Corp.",
+    "prior.expiration_date": "2026-12-01",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "2003",
+        "employees": 10,
+        "payroll": 382500.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 1,
+        "payroll": 42500.0
+      }
+    ]
+  }
+}

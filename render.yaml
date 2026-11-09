@@ -1,0 +1,42 @@
+# Render Blueprint: API + background worker + Streamlit UI + PostgreSQL + Key Value (Redis).
+# Uploads are stored in PostgreSQL (PACKETPILOT_STORAGE=db), so the services share no disk.
+# Check plan names against Render's current pricing before applying.
+services:
+  - type: web
+    name: packetpilot-api
+    runtime: docker
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase: {name: packetpilot-db, property: connectionString}
+      - key: REDIS_URL
+        fromService: {type: keyvalue, name: packetpilot-queue, property: connectionString}
+      - key: PACKETPILOT_API_KEY
+        generateValue: true
+      - key: OPENAI_API_KEY
+        sync: false
+  - type: worker
+    name: packetpilot-worker
+    runtime: docker
+    dockerCommand: python -m packetpilot.worker
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase: {name: packetpilot-db, property: connectionString}
+      - key: REDIS_URL
+        fromService: {type: keyvalue, name: packetpilot-queue, property: connectionString}
+      - key: OPENAI_API_KEY
+        sync: false
+  - type: web
+    name: packetpilot-ui
+    runtime: docker
+    dockerCommand: sh -c "streamlit run streamlit_app.py --server.port $PORT --server.address 0.0.0.0"
+    envVars:
+      - key: PACKETPILOT_API_URL
+        fromService: {type: web, name: packetpilot-api, property: hostport}
+      - key: PACKETPILOT_API_KEY
+        fromService: {type: web, name: packetpilot-api, envVarKey: PACKETPILOT_API_KEY}
+  - type: keyvalue
+    name: packetpilot-queue
+    ipAllowList: []
+databases:
+  - name: packetpilot-db

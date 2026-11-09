@@ -1,0 +1,113 @@
+{
+  "package_id": "PKG-022",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-30",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "restaurant",
+  "files": [
+    "gl_supplement.pdf",
+    "loss_run_riverbendkitchentapl.pdf",
+    "payroll_schedule.xlsx",
+    "riverbendkitchentapl_application.pdf",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "missing_fein",
+    "payroll_mismatch",
+    "undisclosed_losses"
+  ],
+  "benign_variations": [
+    "supplement_name_variant"
+  ],
+  "expected_issues": [
+    {
+      "code": "MISSING_REQUIRED_FIELD",
+      "field_path": "applicant.fein",
+      "subject": null
+    },
+    {
+      "code": "PAYROLL_SCHEDULE_MISMATCH",
+      "field_path": "financials.total_payroll",
+      "subject": null
+    },
+    {
+      "code": "LOSS_DISCLOSURE_CONFLICT",
+      "field_path": "loss_history.prior_losses_disclosed",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Riverbend Kitchen & Tap LLC",
+    "applicant.dba": null,
+    "applicant.fein": null,
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "867 Commerce Dr, Raleigh, NC 27601",
+    "applicant.years_in_business": 9,
+    "applicant.naics": "722511",
+    "contact.name": "Andre Delgado",
+    "contact.email": "andre.delgado@riverbendkitchenta.example",
+    "contact.phone": "(919) 555-0110",
+    "operations.description": "Full-service restaurant with bar, 120 seats, no live entertainment",
+    "financials.annual_revenue": 2240000.0,
+    "financials.total_payroll": 600000.0,
+    "workforce.full_time_employees": 11,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2027-01-06",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Lakeside Casualty Company",
+    "prior.expiration_date": "2027-01-06",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "WC-2024-59423",
+        "date_of_loss": "2024-02-05",
+        "paid": 51450.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "GL-2025-82956",
+        "date_of_loss": "2025-01-07",
+        "paid": 2400.0,
+        "reserve": 9900.0,
+        "status": "Open"
+      },
+      {
+        "claim_number": "PR-2026-92740",
+        "date_of_loss": "2026-03-02",
+        "paid": 7150.0,
+        "reserve": 17600.0,
+        "status": "Open"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "9079",
+        "employees": 9,
+        "payroll": 486000.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 54000.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "package_id": "PKG-007",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-26",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "machine",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_granitepeakprecision.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "stale_loss_run",
+    "coverage_gap"
+  ],
+  "benign_variations": [
+    "email_ft",
+    "email_claim"
+  ],
+  "expected_issues": [
+    {
+      "code": "STALE_LOSS_RUN",
+      "field_path": null,
+      "subject": null
+    },
+    {
+      "code": "PRIOR_COVERAGE_GAP",
+      "field_path": "prior.expiration_date",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Granite Peak Precision Machining LLC",
+    "applicant.dba": null,
+    "applicant.fein": "33-6031373",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "589 Elm St, Madison, WI 53703",
+    "applicant.years_in_business": 8,
+    "applicant.naics": "332710",
+    "contact.name": "Marcus Petrov",
+    "contact.email": "marcus.petrov@granitepeakprecisi.example",
+    "contact.phone": "(608) 555-0152",
+    "operations.description": "CNC machining of aluminum and steel components for industrial customers",
+    "financials.annual_revenue": 7780000.0,
+    "financials.total_payroll": 2703000.0,
+    "workforce.full_time_employees": 40,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2027-01-01",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Lakeside Casualty Company",
+    "prior.expiration_date": "2026-11-19",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Powder coating and heat treating sent out to vendors",
+    "gl.subcontracted_cost": 677000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "WC-2023-13988",
+        "date_of_loss": "2023-08-28",
+        "paid": 8000.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "GL-2025-67456",
+        "date_of_loss": "2025-01-21",
+        "paid": 4800.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "WC-2025-73671",
+        "date_of_loss": "2025-02-02",
+        "paid": 53050.0,
+        "reserve": 23100.0,
+        "status": "Open"
+      },
+      {
+        "claim_number": "WC-2025-23633",
+        "date_of_loss": "2025-10-14",
+        "paid": 8050.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "3632",
+        "employees": 34,
+        "payroll": 2297600.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 6,
+        "payroll": 405400.0
+      }
+    ]
+  }
+}

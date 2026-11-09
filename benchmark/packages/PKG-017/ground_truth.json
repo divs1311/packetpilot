@@ -1,0 +1,118 @@
+{
+  "package_id": "PKG-017",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-30",
+  "lines": [
+    "AUTO",
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "courier",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "duplicate_vin",
+    "employee_mismatch",
+    "missing_loss_run"
+  ],
+  "benign_variations": [
+    "email_rev",
+    "email_ft",
+    "email_eff"
+  ],
+  "expected_issues": [
+    {
+      "code": "DUPLICATE_VIN",
+      "field_path": null,
+      "subject": "RHB5UWSK9FT91CR1X"
+    },
+    {
+      "code": "EMPLOYEE_COUNT_MISMATCH",
+      "field_path": "workforce.full_time_employees",
+      "subject": null
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "field_path": null,
+      "subject": "loss_run"
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Red Rock Courier Co Partners",
+    "applicant.dba": null,
+    "applicant.fein": "86-3650372",
+    "applicant.entity_type": "Partnership",
+    "applicant.mailing_address": "150 Foundry Ln, Boise, ID 83702",
+    "applicant.years_in_business": 9,
+    "applicant.naics": "492210",
+    "contact.name": "Mei Rossi",
+    "contact.email": "mei.rossi@redrockcourierco.example",
+    "contact.phone": "(208) 555-0194",
+    "operations.description": "Same-day local delivery of parcels and documents within the metro area",
+    "financials.annual_revenue": 1210000.0,
+    "financials.total_payroll": 611000.0,
+    "workforce.full_time_employees": 10,
+    "workforce.part_time_employees": 1,
+    "policy.effective_date": "2026-12-09",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Lakeside Casualty Company",
+    "prior.expiration_date": "2026-12-09",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 4,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [
+      {
+        "vin": "RHB5UWSK9FT91CR1X",
+        "year": 2024,
+        "make": "Ford"
+      },
+      {
+        "vin": "RHB5UWSK9FT91CR1X",
+        "year": 2022,
+        "make": "Nissan"
+      },
+      {
+        "vin": "FS0HWG353TG4DCA2X",
+        "year": 2023,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "TVBFM1LV9F3NWPGPR",
+        "year": 2015,
+        "make": "Ford"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "7380",
+        "employees": 11,
+        "payroll": 519400.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 91600.0
+      }
+    ]
+  }
+}

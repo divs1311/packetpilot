@@ -1,0 +1,1062 @@
+[
+  {
+    "package_id": "PKG-001",
+    "style": "A",
+    "scanned": false,
+    "industry": "plumbing",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_prairiewindplumbingp.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-002",
+    "style": "A",
+    "scanned": false,
+    "industry": "electrical",
+    "lines": [
+      "GL",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_sunfieldelectricinc.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-003",
+    "style": "A",
+    "scanned": false,
+    "industry": "machine",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "sov_location_mismatch",
+      "revenue_conflict",
+      "missing_effective_date"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_ironwoodprecisionmac.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-004",
+    "style": "A",
+    "scanned": false,
+    "industry": "printing",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "missing_payroll_schedule"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_sunfieldprintworksin.pdf",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-005",
+    "style": "A",
+    "scanned": false,
+    "industry": "courier",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "employee_mismatch"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_harborlightcourierco.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-006",
+    "style": "A",
+    "scanned": false,
+    "industry": "restaurant",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_summitridgekitchenta.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-007",
+    "style": "A",
+    "scanned": false,
+    "industry": "machine",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "stale_loss_run",
+      "coverage_gap"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_granitepeakprecision.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-008",
+    "style": "A",
+    "scanned": false,
+    "industry": "machine",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_granitepeakprecision.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-009",
+    "style": "A",
+    "scanned": false,
+    "industry": "printing",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "missing_sov",
+      "missing_fein"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_sunfieldprintworksll.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-010",
+    "style": "A",
+    "scanned": false,
+    "industry": "hvac",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "effective_date_past"
+    ],
+    "files": [
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_oakhollowheatingairi.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-011",
+    "style": "A",
+    "scanned": false,
+    "industry": "landscaping",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "missing_fein"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_thornburylandscaping.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-012",
+    "style": "A",
+    "scanned": false,
+    "industry": "restaurant",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "missing_sov",
+      "effective_date_past"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_northgatekitchentapi.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-013",
+    "style": "A",
+    "scanned": false,
+    "industry": "machine",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "missing_sov"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_lakeshoreprecisionma.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-014",
+    "style": "A",
+    "scanned": false,
+    "industry": "printing",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "coverage_gap"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_thornburyprintworksi.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-015",
+    "style": "A",
+    "scanned": false,
+    "industry": "plumbing",
+    "lines": [
+      "AUTO",
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "duplicate_claim",
+      "duplicate_vin"
+    ],
+    "files": [
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_redrockplumbinginc.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-016",
+    "style": "A",
+    "scanned": false,
+    "industry": "janitorial",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "missing_explanation"
+    ],
+    "files": [
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_stonebridgecleanings.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-017",
+    "style": "A",
+    "scanned": false,
+    "industry": "courier",
+    "lines": [
+      "AUTO",
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "duplicate_vin",
+      "employee_mismatch",
+      "missing_loss_run"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-018",
+    "style": "A",
+    "scanned": false,
+    "industry": "restaurant",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "sov_location_mismatch",
+      "duplicate_claim",
+      "invalid_fein"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_oakhollowkitchentapl.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-019",
+    "style": "A",
+    "scanned": false,
+    "industry": "landscaping",
+    "lines": [
+      "AUTO",
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_bluewaterlandscaping.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-020",
+    "style": "A",
+    "scanned": false,
+    "industry": "courier",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "duplicate_claim"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_lakeshorecouriercoin.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-021",
+    "style": "B",
+    "scanned": false,
+    "industry": "bakery",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "stale_loss_run",
+      "employee_mismatch"
+    ],
+    "files": [
+      "cedarpointbakehousei_application.pdf",
+      "client_email.eml",
+      "gl_supplement.pdf",
+      "loss_run_cedarpointbakehousei.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-022",
+    "style": "B",
+    "scanned": false,
+    "industry": "restaurant",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "missing_fein",
+      "payroll_mismatch",
+      "undisclosed_losses"
+    ],
+    "files": [
+      "gl_supplement.pdf",
+      "loss_run_riverbendkitchentapl.pdf",
+      "payroll_schedule.xlsx",
+      "riverbendkitchentapl_application.pdf",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-023",
+    "style": "B",
+    "scanned": false,
+    "industry": "machine",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "duplicate_claim",
+      "missing_payroll_schedule"
+    ],
+    "files": [
+      "gl_supplement.pdf",
+      "loss_run_silvercreekprecision.pdf",
+      "silvercreekprecision_application.pdf",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-024",
+    "style": "B",
+    "scanned": false,
+    "industry": "electrical",
+    "lines": [
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "employee_conflict",
+      "missing_payroll",
+      "missing_effective_date"
+    ],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "loss_run_oakhollowelectricinc.pdf",
+      "oakhollowelectricinc_application.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-025",
+    "style": "B",
+    "scanned": false,
+    "industry": "landscaping",
+    "lines": [
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "effective_date_past"
+    ],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "granitepeaklandscapi_application.pdf",
+      "loss_run_granitepeaklandscapi.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-026",
+    "style": "B",
+    "scanned": false,
+    "industry": "machine",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "future_loss_date",
+      "sov_location_mismatch"
+    ],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "loss_run_pinecrestprecisionma.pdf",
+      "payroll_schedule.xlsx",
+      "pinecrestprecisionma_application.pdf",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-027",
+    "style": "B",
+    "scanned": false,
+    "industry": "plumbing",
+    "lines": [
+      "GL",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "loss_run_maplegroveplumbingpa.pdf",
+      "maplegroveplumbingpa_application.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-028",
+    "style": "B",
+    "scanned": false,
+    "industry": "electrical",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "invalid_vin"
+    ],
+    "files": [
+      "bluewaterelectricinc_application.pdf",
+      "client_email.eml",
+      "gl_supplement.pdf",
+      "loss_run_bluewaterelectricinc.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-029",
+    "style": "B",
+    "scanned": false,
+    "industry": "restaurant",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "claim_status_conflict",
+      "missing_payroll"
+    ],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "loss_run_pinecrestkitchentapl.pdf",
+      "payroll_schedule.xlsx",
+      "pinecrestkitchentapl_application.pdf",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-030",
+    "style": "B",
+    "scanned": false,
+    "industry": "hvac",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "harborlightheatingai_application.pdf",
+      "loss_run_harborlightheatingai.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-031",
+    "style": "B",
+    "scanned": false,
+    "industry": "autorepair",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "effective_date_past",
+      "stale_loss_run"
+    ],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "loss_run_silvercreekautocarel.pdf",
+      "payroll_schedule.xlsx",
+      "silvercreekautocarel_application.pdf",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-032",
+    "style": "B",
+    "scanned": false,
+    "industry": "plumbing",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "missing_explanation",
+      "invalid_vin",
+      "effective_conflict"
+    ],
+    "files": [
+      "client_email.eml",
+      "gl_supplement.pdf",
+      "harborlightplumbingp_application.pdf",
+      "loss_run_harborlightplumbingp.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-033",
+    "style": "B",
+    "scanned": false,
+    "industry": "restaurant",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "duplicate_claim"
+    ],
+    "files": [
+      "gl_supplement.pdf",
+      "loss_run_victorbrennan.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx",
+      "victorbrennan_application.pdf"
+    ]
+  },
+  {
+    "package_id": "PKG-034",
+    "style": "B",
+    "scanned": false,
+    "industry": "restaurant",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "effective_conflict"
+    ],
+    "files": [
+      "client_email.eml",
+      "gl_supplement.pdf",
+      "harborlightkitchenta_application.pdf",
+      "loss_run_harborlightkitchenta.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-035",
+    "style": "C",
+    "scanned": false,
+    "industry": "itconsult",
+    "lines": [
+      "GL",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "intake_form_kestreltechnologypar.pdf",
+      "loss_run_kestreltechnologypar.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-036",
+    "style": "C",
+    "scanned": false,
+    "industry": "printing",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "gl_supplement.pdf",
+      "intake_form_kestrelprintworkspar.pdf",
+      "loss_run_kestrelprintworkspar.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-037",
+    "style": "C",
+    "scanned": false,
+    "industry": "plumbing",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "revenue_conflict",
+      "coverage_gap"
+    ],
+    "files": [
+      "client_email.eml",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "intake_form_kestrelplumbinginc.pdf",
+      "loss_run_kestrelplumbinginc.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-038",
+    "style": "C",
+    "scanned": false,
+    "industry": "courier",
+    "lines": [
+      "AUTO",
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "duplicate_claim"
+    ],
+    "files": [
+      "client_email.eml",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "intake_form_copperfieldcourierco.pdf",
+      "loss_run_copperfieldcourierco.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-039",
+    "style": "C",
+    "scanned": false,
+    "industry": "hvac",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "invalid_fein",
+      "future_loss_date",
+      "payroll_arithmetic"
+    ],
+    "files": [
+      "client_email.eml",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "intake_form_cedarpointheatingair.pdf",
+      "loss_run_cedarpointheatingair.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-040",
+    "style": "C",
+    "scanned": false,
+    "industry": "autorepair",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "missing_explanation",
+      "payroll_mismatch"
+    ],
+    "files": [
+      "client_email.eml",
+      "gl_supplement.pdf",
+      "intake_form_maplegroveautocarell.pdf",
+      "loss_run_maplegroveautocarell.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-041",
+    "style": "A",
+    "scanned": true,
+    "industry": "electrical",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "missing_revenue"
+    ],
+    "files": [
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_summitridgeelectricp.pdf",
+      "payroll_schedule.xlsx",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-042",
+    "style": "A",
+    "scanned": true,
+    "industry": "printing",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_pinecrestprintworksl.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-043",
+    "style": "A",
+    "scanned": true,
+    "industry": "plumbing",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "missing_vehicle_schedule"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "gl_supplement.pdf",
+      "loss_run_thornburyplumbingllc.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-044",
+    "style": "A",
+    "scanned": true,
+    "industry": "electrical",
+    "lines": [
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "invalid_fein",
+      "payroll_arithmetic"
+    ],
+    "files": [
+      "client_email.eml",
+      "commercial_application.pdf",
+      "financials_FY.docx",
+      "gl_supplement.pdf",
+      "loss_run_prairiewindelectricp.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-045",
+    "style": "B",
+    "scanned": true,
+    "industry": "itconsult",
+    "lines": [
+      "GL",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "gl_supplement.pdf",
+      "harborlighttechnolog_application.pdf",
+      "loss_run_harborlighttechnolog.pdf",
+      "payroll_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-046",
+    "style": "B",
+    "scanned": true,
+    "industry": "autorepair",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [
+      "revenue_conflict"
+    ],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "juniperautocarepartn_application.pdf",
+      "loss_run_juniperautocarepartn.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-047",
+    "style": "B",
+    "scanned": true,
+    "industry": "electrical",
+    "lines": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "defects": [
+      "invalid_fein",
+      "employee_mismatch"
+    ],
+    "files": [
+      "client_email.eml",
+      "gl_supplement.pdf",
+      "loss_run_pinecrestelectricinc.pdf",
+      "payroll_schedule.xlsx",
+      "pinecrestelectricinc_application.pdf",
+      "vehicle_schedule.xlsx"
+    ]
+  },
+  {
+    "package_id": "PKG-048",
+    "style": "B",
+    "scanned": true,
+    "industry": "machine",
+    "lines": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "defects": [],
+    "files": [
+      "client_email.eml",
+      "financial_statement.pdf",
+      "gl_supplement.pdf",
+      "loss_run_sunfieldprecisionmac.pdf",
+      "payroll_schedule.xlsx",
+      "statement_of_values.xlsx",
+      "sunfieldprecisionmac_application.pdf"
+    ]
+  }
+]

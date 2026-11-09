@@ -1,0 +1,21 @@
+# Exact versions the test suite and benchmark were last run with (Python 3.13).
+fastapi==0.162.2
+google-genai==3.0.0
+httpx==0.28.1
+openai==3.46.0
+openpyxl==3.1.5
+pandas==3.0.5
+pillow==12.3.0
+psycopg==3.3.8
+pydantic==2.13.5
+pymupdf==2.1
+pytesseract==0.3.13
+pytest==9.1.1
+python-docx==1.2.0
+python-multipart==0.0.32
+redis==8.1.0
+reportlab==5.0.1
+rq==3.0.0
+SQLAlchemy==2.1.8
+streamlit==1.67.0
+uvicorn==0.54.0

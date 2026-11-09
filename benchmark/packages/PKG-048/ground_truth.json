@@ -1,0 +1,91 @@
+{
+  "package_id": "PKG-048",
+  "style": "B",
+  "scanned": true,
+  "as_of": "2026-10-14",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "machine",
+  "files": [
+    "client_email.eml",
+    "financial_statement.pdf",
+    "gl_supplement.pdf",
+    "loss_run_sunfieldprecisionmac.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx",
+    "sunfieldprecisionmac_application.pdf"
+  ],
+  "defects": [],
+  "benign_variations": [
+    "email_claim",
+    "email_rev",
+    "email_eff",
+    "email_ft"
+  ],
+  "expected_issues": [],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Sunfield Precision Machining LLC",
+    "applicant.dba": "Sunfield Services",
+    "applicant.fein": "81-4623520",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "906 Foundry Ln, Indianapolis, IN 46204",
+    "applicant.years_in_business": 22,
+    "applicant.naics": "332710",
+    "contact.name": "Claire Petrov",
+    "contact.email": "claire.petrov@sunfieldprecisionm.example",
+    "contact.phone": "(317) 555-0121",
+    "operations.description": "CNC machining of aluminum and steel components for industrial customers",
+    "financials.annual_revenue": 2360000.0,
+    "financials.total_payroll": 717000.0,
+    "workforce.full_time_employees": 9,
+    "workforce.part_time_employees": 3,
+    "policy.effective_date": "2026-11-04",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Keystone Assurance Group",
+    "prior.expiration_date": "2026-11-04",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Powder coating and heat treating sent out to vendors",
+    "gl.subcontracted_cost": 84000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "GL-2023-85442",
+        "date_of_loss": "2023-11-18",
+        "paid": 33300.0,
+        "reserve": 12100.0,
+        "status": "Open"
+      },
+      {
+        "claim_number": "WC-2025-94965",
+        "date_of_loss": "2025-10-21",
+        "paid": 47000.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "3632",
+        "employees": 10,
+        "payroll": 609400.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 107600.0
+      }
+    ]
+  }
+}

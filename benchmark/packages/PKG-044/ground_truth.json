@@ -1,0 +1,93 @@
+{
+  "package_id": "PKG-044",
+  "style": "A",
+  "scanned": true,
+  "as_of": "2026-11-01",
+  "lines": [
+    "GL",
+    "WC"
+  ],
+  "industry": "electrical",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_prairiewindelectricp.pdf",
+    "payroll_schedule.xlsx"
+  ],
+  "defects": [
+    "invalid_fein",
+    "payroll_arithmetic"
+  ],
+  "benign_variations": [
+    "email_eff",
+    "email_claim"
+  ],
+  "expected_issues": [
+    {
+      "code": "INVALID_FEIN",
+      "field_path": "applicant.fein",
+      "subject": null
+    },
+    {
+      "code": "SCHEDULE_TOTAL_ARITHMETIC",
+      "field_path": null,
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Prairie Wind Electric Partners",
+    "applicant.dba": null,
+    "applicant.fein": "33-784713",
+    "applicant.entity_type": "Partnership",
+    "applicant.mailing_address": "4959 Mill Rd, Indianapolis, IN 46204",
+    "applicant.years_in_business": 7,
+    "applicant.naics": "238210",
+    "contact.name": "Tom Haddad",
+    "contact.email": "tom.haddad@prairiewindelectri.example",
+    "contact.phone": "(317) 555-0123",
+    "operations.description": "Commercial electrical contracting, tenant build-outs and service calls",
+    "financials.annual_revenue": 1060000.0,
+    "financials.total_payroll": 473000.0,
+    "workforce.full_time_employees": 11,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Keystone Assurance Group",
+    "prior.expiration_date": "2026-12-01",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Trenching and boring subcontracted to excavation firms",
+    "gl.subcontracted_cost": 59000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "GL-2025-28456",
+        "date_of_loss": "2025-08-18",
+        "paid": 10350.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "5190",
+        "employees": 9,
+        "payroll": 402000.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 71000.0
+      }
+    ]
+  }
+}

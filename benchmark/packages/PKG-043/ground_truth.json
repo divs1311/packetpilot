@@ -1,0 +1,87 @@
+{
+  "package_id": "PKG-043",
+  "style": "A",
+  "scanned": true,
+  "as_of": "2026-11-02",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "plumbing",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "gl_supplement.pdf",
+    "loss_run_thornburyplumbingllc.pdf",
+    "payroll_schedule.xlsx"
+  ],
+  "defects": [
+    "missing_vehicle_schedule"
+  ],
+  "benign_variations": [
+    "email_eff"
+  ],
+  "expected_issues": [
+    {
+      "code": "MISSING_DOCUMENT",
+      "field_path": null,
+      "subject": "vehicle_schedule"
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Thornbury Plumbing LLC",
+    "applicant.dba": null,
+    "applicant.fein": "36-3395739",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "8346 Industrial Pkwy, Madison, WI 53703",
+    "applicant.years_in_business": 19,
+    "applicant.naics": "238220",
+    "contact.name": "Hannah Fischer",
+    "contact.email": "hannah.fischer@thornburyplumbing.example",
+    "contact.phone": "(608) 555-0147",
+    "operations.description": "Residential plumbing repair, water heater and fixture installation",
+    "financials.annual_revenue": 2620000.0,
+    "financials.total_payroll": 1125000.0,
+    "workforce.full_time_employees": 18,
+    "workforce.part_time_employees": 3,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Granite Mutual Insurance Co.",
+    "prior.expiration_date": "2026-12-01",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 2,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Excavation for sewer line replacement subcontracted",
+    "gl.subcontracted_cost": 285000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "WC-2024-59610",
+        "date_of_loss": "2024-10-18",
+        "paid": 10700.0,
+        "reserve": 34000.0,
+        "status": "Open"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "5183",
+        "employees": 17,
+        "payroll": 956200.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 4,
+        "payroll": 168800.0
+      }
+    ]
+  }
+}

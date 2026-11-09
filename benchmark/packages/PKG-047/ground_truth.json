@@ -1,0 +1,133 @@
+{
+  "package_id": "PKG-047",
+  "style": "B",
+  "scanned": true,
+  "as_of": "2026-10-25",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "electrical",
+  "files": [
+    "client_email.eml",
+    "gl_supplement.pdf",
+    "loss_run_pinecrestelectricinc.pdf",
+    "payroll_schedule.xlsx",
+    "pinecrestelectricinc_application.pdf",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "invalid_fein",
+    "employee_mismatch"
+  ],
+  "benign_variations": [
+    "email_claim",
+    "email_rev"
+  ],
+  "expected_issues": [
+    {
+      "code": "INVALID_FEIN",
+      "field_path": "applicant.fein",
+      "subject": null
+    },
+    {
+      "code": "EMPLOYEE_COUNT_MISMATCH",
+      "field_path": "workforce.full_time_employees",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Pinecrest Electric Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "84-835694",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "5485 Union Ave, Indianapolis, IN 46204",
+    "applicant.years_in_business": 7,
+    "applicant.naics": "238210",
+    "contact.name": "Grace Moreau",
+    "contact.email": "grace.moreau@pinecrestelectric.example",
+    "contact.phone": "(317) 555-0182",
+    "operations.description": "Commercial electrical contracting, tenant build-outs and service calls",
+    "financials.annual_revenue": 2030000.0,
+    "financials.total_payroll": 702000.0,
+    "workforce.full_time_employees": 11,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2026-11-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Meridian Fire & Casualty",
+    "prior.expiration_date": "2026-11-01",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 6,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Trenching and boring subcontracted to excavation firms",
+    "gl.subcontracted_cost": 88000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "AU-2024-26950",
+        "date_of_loss": "2024-12-07",
+        "paid": 13850.0,
+        "reserve": 9500.0,
+        "status": "Open"
+      },
+      {
+        "claim_number": "GL-2025-31760",
+        "date_of_loss": "2025-09-08",
+        "paid": 40500.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [
+      {
+        "vin": "5NW49579936FUN424",
+        "year": 2021,
+        "make": "Ram"
+      },
+      {
+        "vin": "M4VHYBVF0CD6GUTB5",
+        "year": 2018,
+        "make": "Ram"
+      },
+      {
+        "vin": "08TSKCER4PBCXMBUC",
+        "year": 2020,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "DLLPCJBA3DT2818LM",
+        "year": 2025,
+        "make": "Ford"
+      },
+      {
+        "vin": "BBL3FMTMXHCX8YX2H",
+        "year": 2020,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "P8YSL33LXJK59K9CE",
+        "year": 2026,
+        "make": "Ford"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "5190",
+        "employees": 14,
+        "payroll": 596700.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 105300.0
+      }
+    ]
+  }
+}

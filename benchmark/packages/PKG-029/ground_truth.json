@@ -1,0 +1,96 @@
+{
+  "package_id": "PKG-029",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-19",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "restaurant",
+  "files": [
+    "client_email.eml",
+    "financial_statement.pdf",
+    "gl_supplement.pdf",
+    "loss_run_pinecrestkitchentapl.pdf",
+    "payroll_schedule.xlsx",
+    "pinecrestkitchentapl_application.pdf",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "claim_status_conflict",
+    "missing_payroll"
+  ],
+  "benign_variations": [
+    "email_eff",
+    "supplement_name_variant"
+  ],
+  "expected_issues": [
+    {
+      "code": "CLAIM_STATUS_CONFLICT",
+      "field_path": null,
+      "subject": "WC-2025-70246"
+    },
+    {
+      "code": "MISSING_REQUIRED_FIELD",
+      "field_path": "financials.total_payroll",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Pinecrest Kitchen & Tap LLC",
+    "applicant.dba": null,
+    "applicant.fein": "46-7341678",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "6998 Cedar Ave, Austin, TX 78701",
+    "applicant.years_in_business": 10,
+    "applicant.naics": "722511",
+    "contact.name": "Priya Ellison",
+    "contact.email": "priya.ellison@pinecrestkitchenta.example",
+    "contact.phone": "(512) 555-0143",
+    "operations.description": "Full-service restaurant with bar, 120 seats, no live entertainment",
+    "financials.annual_revenue": 1690000.0,
+    "financials.total_payroll": null,
+    "workforce.full_time_employees": 9,
+    "workforce.part_time_employees": 1,
+    "policy.effective_date": "2026-12-18",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Granite Mutual Insurance Co.",
+    "prior.expiration_date": "2026-12-18",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "WC-2025-70246",
+        "date_of_loss": "2025-12-15",
+        "paid": 32650.0,
+        "reserve": 22200.0,
+        "status": "Open"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "9079",
+        "employees": 9,
+        "payroll": 460800.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 1,
+        "payroll": 51200.0
+      }
+    ]
+  }
+}

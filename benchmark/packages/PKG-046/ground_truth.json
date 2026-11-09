@@ -1,0 +1,84 @@
+{
+  "package_id": "PKG-046",
+  "style": "B",
+  "scanned": true,
+  "as_of": "2026-10-15",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "autorepair",
+  "files": [
+    "client_email.eml",
+    "financial_statement.pdf",
+    "gl_supplement.pdf",
+    "juniperautocarepartn_application.pdf",
+    "loss_run_juniperautocarepartn.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "revenue_conflict"
+  ],
+  "benign_variations": [
+    "email_eff",
+    "email_ft"
+  ],
+  "expected_issues": [
+    {
+      "code": "FIELD_CONFLICT",
+      "field_path": "financials.annual_revenue",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [
+    "financials.annual_revenue"
+  ],
+  "fields": {
+    "applicant.legal_name": "Juniper Auto Care Partners",
+    "applicant.dba": null,
+    "applicant.fein": "31-3530848",
+    "applicant.entity_type": "Partnership",
+    "applicant.mailing_address": "7013 Market St, Charlotte, NC 28202",
+    "applicant.years_in_business": 4,
+    "applicant.naics": "811111",
+    "contact.name": "Victor Kowalski",
+    "contact.email": "victor.kowalski@juniperautocare.example",
+    "contact.phone": "(704) 555-0187",
+    "operations.description": "General automotive repair and maintenance, no towing or body work",
+    "financials.annual_revenue": 2280000.0,
+    "financials.total_payroll": 679000.0,
+    "workforce.full_time_employees": 9,
+    "workforce.part_time_employees": 3,
+    "policy.effective_date": "2026-11-01",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Bayview General Insurance",
+    "prior.expiration_date": "2026-11-01",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "8380",
+        "employees": 10,
+        "payroll": 577200.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 101800.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "package_id": "PKG-005",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-13",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "courier",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "gl_supplement.pdf",
+    "loss_run_harborlightcourierco.pdf",
+    "payroll_schedule.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "employee_mismatch"
+  ],
+  "benign_variations": [
+    "email_eff",
+    "email_ft"
+  ],
+  "expected_issues": [
+    {
+      "code": "EMPLOYEE_COUNT_MISMATCH",
+      "field_path": "workforce.full_time_employees",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Harbor Light Courier Co Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "83-7006008",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "2048 Market St, Phoenix, AZ 85004",
+    "applicant.years_in_business": 7,
+    "applicant.naics": "492210",
+    "contact.name": "Marcus Brennan",
+    "contact.email": "marcus.brennan@harborlightcourier.example",
+    "contact.phone": "(602) 555-0169",
+    "operations.description": "Same-day local delivery of parcels and documents within the metro area",
+    "financials.annual_revenue": 2030000.0,
+    "financials.total_payroll": 874000.0,
+    "workforce.full_time_employees": 15,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2026-11-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Keystone Assurance Group",
+    "prior.expiration_date": "2026-11-01",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": 2,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [
+      {
+        "vin": "5PTCEEMD6GL9U2FWK",
+        "year": 2022,
+        "make": "Isuzu"
+      },
+      {
+        "vin": "6FV9KHT68U614BTUX",
+        "year": 2017,
+        "make": "Toyota"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "7380",
+        "employees": 17,
+        "payroll": 742900.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 3,
+        "payroll": 131100.0
+      }
+    ]
+  }
+}

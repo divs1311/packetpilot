@@ -1,0 +1,101 @@
+{
+  "package_id": "PKG-024",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-18",
+  "lines": [
+    "GL",
+    "WC"
+  ],
+  "industry": "electrical",
+  "files": [
+    "client_email.eml",
+    "financial_statement.pdf",
+    "gl_supplement.pdf",
+    "loss_run_oakhollowelectricinc.pdf",
+    "oakhollowelectricinc_application.pdf",
+    "payroll_schedule.xlsx"
+  ],
+  "defects": [
+    "employee_conflict",
+    "missing_payroll",
+    "missing_effective_date"
+  ],
+  "benign_variations": [
+    "email_rev",
+    "supplement_name_variant"
+  ],
+  "expected_issues": [
+    {
+      "code": "FIELD_CONFLICT",
+      "field_path": "workforce.full_time_employees",
+      "subject": null
+    },
+    {
+      "code": "MISSING_REQUIRED_FIELD",
+      "field_path": "financials.total_payroll",
+      "subject": null
+    },
+    {
+      "code": "MISSING_REQUIRED_FIELD",
+      "field_path": "policy.effective_date",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [
+    "workforce.full_time_employees"
+  ],
+  "fields": {
+    "applicant.legal_name": "Oak Hollow Electric Inc.",
+    "applicant.dba": "Oak Hollow Services",
+    "applicant.fein": "31-1119549",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "128 Industrial Pkwy, Raleigh, NC 27601",
+    "applicant.years_in_business": 24,
+    "applicant.naics": "238210",
+    "contact.name": "Elena Alvarez",
+    "contact.email": "elena.alvarez@oakhollowelectric.example",
+    "contact.phone": "(919) 555-0178",
+    "operations.description": "Commercial electrical contracting, tenant build-outs and service calls",
+    "financials.annual_revenue": 5320000.0,
+    "financials.total_payroll": null,
+    "workforce.full_time_employees": 30,
+    "workforce.part_time_employees": 9,
+    "policy.effective_date": null,
+    "policy.lines_requested": [
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Bayview General Insurance",
+    "prior.expiration_date": "2026-12-11",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Trenching and boring subcontracted to excavation firms",
+    "gl.subcontracted_cost": 426000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "WC-2024-13434",
+        "date_of_loss": "2024-08-08",
+        "paid": 45200.0,
+        "reserve": 25000.0,
+        "status": "Open"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "5190",
+        "employees": 33,
+        "payroll": 1866600.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 6,
+        "payroll": 329400.0
+      }
+    ]
+  }
+}

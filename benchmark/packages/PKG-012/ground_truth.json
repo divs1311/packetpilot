@@ -1,0 +1,94 @@
+{
+  "package_id": "PKG-012",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-22",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "restaurant",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "gl_supplement.pdf",
+    "loss_run_northgatekitchentapi.pdf",
+    "payroll_schedule.xlsx"
+  ],
+  "defects": [
+    "missing_sov",
+    "effective_date_past"
+  ],
+  "benign_variations": [
+    "email_rev",
+    "email_ft"
+  ],
+  "expected_issues": [
+    {
+      "code": "MISSING_DOCUMENT",
+      "field_path": null,
+      "subject": "property_sov"
+    },
+    {
+      "code": "EFFECTIVE_DATE_PAST",
+      "field_path": "policy.effective_date",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Northgate Kitchen & Tap Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "35-6492822",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "3251 Union Ave, Austin, TX 78701",
+    "applicant.years_in_business": 7,
+    "applicant.naics": "722511",
+    "contact.name": "Maria Tran",
+    "contact.email": "maria.tran@northgatekitchenta.example",
+    "contact.phone": "(512) 555-0118",
+    "operations.description": "Full-service restaurant with bar, 120 seats, no live entertainment",
+    "financials.annual_revenue": 2080000.0,
+    "financials.total_payroll": 707000.0,
+    "workforce.full_time_employees": 15,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2026-10-07",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Keystone Assurance Group",
+    "prior.expiration_date": "2026-10-07",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "WC-2026-89920",
+        "date_of_loss": "2026-03-29",
+        "paid": 38700.0,
+        "reserve": 3200.0,
+        "status": "Open"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "9079",
+        "employees": 13,
+        "payroll": 636300.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 70700.0
+      }
+    ]
+  }
+}

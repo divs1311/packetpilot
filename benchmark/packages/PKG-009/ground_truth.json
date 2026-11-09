@@ -1,0 +1,88 @@
+{
+  "package_id": "PKG-009",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-11-01",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "printing",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_sunfieldprintworksll.pdf",
+    "payroll_schedule.xlsx"
+  ],
+  "defects": [
+    "missing_sov",
+    "missing_fein"
+  ],
+  "benign_variations": [
+    "email_rev",
+    "email_eff",
+    "supplement_name_variant"
+  ],
+  "expected_issues": [
+    {
+      "code": "MISSING_DOCUMENT",
+      "field_path": null,
+      "subject": "property_sov"
+    },
+    {
+      "code": "MISSING_REQUIRED_FIELD",
+      "field_path": "applicant.fein",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Sunfield Print Works LLC",
+    "applicant.dba": null,
+    "applicant.fein": null,
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "2748 Elm St, Indianapolis, IN 46204",
+    "applicant.years_in_business": 11,
+    "applicant.naics": "323111",
+    "contact.name": "Claire Petrov",
+    "contact.email": "claire.petrov@sunfieldprintworks.example",
+    "contact.phone": "(317) 555-0152",
+    "operations.description": "Commercial offset and digital printing of marketing materials",
+    "financials.annual_revenue": 770000.0,
+    "financials.total_payroll": 217000.0,
+    "workforce.full_time_employees": 3,
+    "workforce.part_time_employees": 1,
+    "policy.effective_date": "2026-12-27",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Lakeside Casualty Company",
+    "prior.expiration_date": "2026-12-27",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "4299",
+        "employees": 3,
+        "payroll": 173600.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 1,
+        "payroll": 43400.0
+      }
+    ]
+  }
+}

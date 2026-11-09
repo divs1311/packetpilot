@@ -1,0 +1,122 @@
+{
+  "package_id": "PKG-028",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-31",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "electrical",
+  "files": [
+    "bluewaterelectricinc_application.pdf",
+    "client_email.eml",
+    "gl_supplement.pdf",
+    "loss_run_bluewaterelectricinc.pdf",
+    "payroll_schedule.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "invalid_vin"
+  ],
+  "benign_variations": [
+    "email_rev",
+    "email_ft"
+  ],
+  "expected_issues": [
+    {
+      "code": "INVALID_VIN",
+      "field_path": null,
+      "subject": "VR6CKWFM0MST93Y69"
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Bluewater Electric Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "27-2495508",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "1565 Granite Way, Charlotte, NC 28202",
+    "applicant.years_in_business": 18,
+    "applicant.naics": "238210",
+    "contact.name": "Luis Brennan",
+    "contact.email": "luis.brennan@bluewaterelectric.example",
+    "contact.phone": "(704) 555-0113",
+    "operations.description": "Commercial electrical contracting, tenant build-outs and service calls",
+    "financials.annual_revenue": 2230000.0,
+    "financials.total_payroll": 990000.0,
+    "workforce.full_time_employees": 15,
+    "workforce.part_time_employees": 3,
+    "policy.effective_date": "2027-01-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Bayview General Insurance",
+    "prior.expiration_date": "2027-01-01",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 5,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Trenching and boring subcontracted to excavation firms",
+    "gl.subcontracted_cost": 236000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "AU-2023-86736",
+        "date_of_loss": "2023-10-18",
+        "paid": 49650.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "GL-2026-77241",
+        "date_of_loss": "2026-02-07",
+        "paid": 31000.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [
+      {
+        "vin": "XSELHGS7XUHZ2E035",
+        "year": 2015,
+        "make": "GMC"
+      },
+      {
+        "vin": "91D08ZL439XR8W2R5",
+        "year": 2016,
+        "make": "Toyota"
+      },
+      {
+        "vin": "SY5JKNU6XYH7JV3JV",
+        "year": 2025,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "VR6CKWFM0MST93Y69",
+        "year": 2017,
+        "make": "Isuzu"
+      },
+      {
+        "vin": "9948UX619NG7G9CJH",
+        "year": 2022,
+        "make": "Ram"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "5190",
+        "employees": 15,
+        "payroll": 841500.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 3,
+        "payroll": 148500.0
+      }
+    ]
+  }
+}

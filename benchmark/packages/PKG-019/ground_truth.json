@@ -1,0 +1,132 @@
+{
+  "package_id": "PKG-019",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-11-02",
+  "lines": [
+    "AUTO",
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "landscaping",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_bluewaterlandscaping.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [],
+  "benign_variations": [
+    "email_claim",
+    "email_rev",
+    "email_eff",
+    "email_ft"
+  ],
+  "expected_issues": [],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Bluewater Landscaping Partners",
+    "applicant.dba": null,
+    "applicant.fein": "20-3395335",
+    "applicant.entity_type": "Partnership",
+    "applicant.mailing_address": "7721 Harbor Blvd, Columbus, OH 43215",
+    "applicant.years_in_business": 33,
+    "applicant.naics": "561730",
+    "contact.name": "Tom Jensen",
+    "contact.email": "tom.jensen@bluewaterlandscapi.example",
+    "contact.phone": "(614) 555-0137",
+    "operations.description": "Residential and commercial lawn care, landscaping and snow removal",
+    "financials.annual_revenue": 2700000.0,
+    "financials.total_payroll": 1180000.0,
+    "workforce.full_time_employees": 14,
+    "workforce.part_time_employees": 4,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Bayview General Insurance",
+    "prior.expiration_date": "2026-12-01",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 6,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "PR-2022-39090",
+        "date_of_loss": "2022-12-08",
+        "paid": 35050.0,
+        "reserve": 7200.0,
+        "status": "Open"
+      },
+      {
+        "claim_number": "WC-2024-53404",
+        "date_of_loss": "2024-02-22",
+        "paid": 24550.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "PR-2024-62718",
+        "date_of_loss": "2024-06-12",
+        "paid": 45500.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [
+      {
+        "vin": "64M100SH1CZLS32BG",
+        "year": 2015,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "RDEMVUVC80BNEEN5U",
+        "year": 2024,
+        "make": "Ford"
+      },
+      {
+        "vin": "ZE6M55S68SL46KMT6",
+        "year": 2018,
+        "make": "Nissan"
+      },
+      {
+        "vin": "358ALTPJ8K3SLZVRB",
+        "year": 2026,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "2BB3R8XY9VRPU4H43",
+        "year": 2019,
+        "make": "Toyota"
+      },
+      {
+        "vin": "3P4FZ23K4WYGLK7JF",
+        "year": 2017,
+        "make": "Chevrolet"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "0042",
+        "employees": 14,
+        "payroll": 944000.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 4,
+        "payroll": 236000.0
+      }
+    ]
+  }
+}

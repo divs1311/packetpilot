@@ -1,0 +1,130 @@
+{
+  "package_id": "PKG-038",
+  "style": "C",
+  "scanned": false,
+  "as_of": "2026-10-24",
+  "lines": [
+    "AUTO",
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "courier",
+  "files": [
+    "client_email.eml",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "intake_form_copperfieldcourierco.pdf",
+    "loss_run_copperfieldcourierco.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "duplicate_claim"
+  ],
+  "benign_variations": [
+    "email_eff"
+  ],
+  "expected_issues": [
+    {
+      "code": "DUPLICATE_CLAIM",
+      "field_path": null,
+      "subject": "WC-2023-56838"
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Copperfield Courier Co LLC",
+    "applicant.dba": null,
+    "applicant.fein": "38-1195326",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "4881 Elm St, Kansas City, MO 64106",
+    "applicant.years_in_business": 26,
+    "applicant.naics": "492210",
+    "contact.name": "Elena Iverson",
+    "contact.email": "elena.iverson@copperfieldcourier.example",
+    "contact.phone": "(816) 555-0113",
+    "operations.description": "Same-day local delivery of parcels and documents within the metro area",
+    "financials.annual_revenue": 1780000.0,
+    "financials.total_payroll": 810000.0,
+    "workforce.full_time_employees": 12,
+    "workforce.part_time_employees": 3,
+    "policy.effective_date": "2027-01-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Meridian Fire & Casualty",
+    "prior.expiration_date": "2027-01-01",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 6,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "WC-2023-56838",
+        "date_of_loss": "2023-04-14",
+        "paid": 52550.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "WC-2023-56838",
+        "date_of_loss": "2023-04-14",
+        "paid": 52550.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [
+      {
+        "vin": "T08LRD381CMJ237JU",
+        "year": 2015,
+        "make": "Nissan"
+      },
+      {
+        "vin": "R27S29R113KWMN8E2",
+        "year": 2019,
+        "make": "Ram"
+      },
+      {
+        "vin": "8HBXGXA42V5CRLLJY",
+        "year": 2025,
+        "make": "Toyota"
+      },
+      {
+        "vin": "FWGBWJ6G83L5LGTDF",
+        "year": 2020,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "ENV14LKC1DKJDXWS7",
+        "year": 2026,
+        "make": "Nissan"
+      },
+      {
+        "vin": "HRRR09MC44Y35U0T3",
+        "year": 2021,
+        "make": "GMC"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "7380",
+        "employees": 12,
+        "payroll": 688500.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 3,
+        "payroll": 121500.0
+      }
+    ]
+  }
+}

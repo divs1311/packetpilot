@@ -1,0 +1,108 @@
+{
+  "package_id": "PKG-011",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-25",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "landscaping",
+  "files": [
+    "client_email.eml",
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_thornburylandscaping.pdf",
+    "payroll_schedule.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "missing_fein"
+  ],
+  "benign_variations": [
+    "email_eff",
+    "email_ft"
+  ],
+  "expected_issues": [
+    {
+      "code": "MISSING_REQUIRED_FIELD",
+      "field_path": "applicant.fein",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Thornbury Landscaping Partners",
+    "applicant.dba": null,
+    "applicant.fein": null,
+    "applicant.entity_type": "Partnership",
+    "applicant.mailing_address": "7702 Elm St, Indianapolis, IN 46204",
+    "applicant.years_in_business": 7,
+    "applicant.naics": "561730",
+    "contact.name": "Tom Fischer",
+    "contact.email": "tom.fischer@thornburylandscapi.example",
+    "contact.phone": "(317) 555-0167",
+    "operations.description": "Residential and commercial lawn care, landscaping and snow removal",
+    "financials.annual_revenue": 1690000.0,
+    "financials.total_payroll": 623000.0,
+    "workforce.full_time_employees": 13,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2026-11-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Meridian Fire & Casualty",
+    "prior.expiration_date": "2026-11-01",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": 5,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Tree removal over 20 ft subcontracted to licensed arborists",
+    "gl.subcontracted_cost": 189000.0
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [
+      {
+        "vin": "GURPBV6N7M5CL108F",
+        "year": 2017,
+        "make": "GMC"
+      },
+      {
+        "vin": "RZFWVZJT4XSVLRF8H",
+        "year": 2016,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "YPBMCAAJ5TV1BVKSH",
+        "year": 2023,
+        "make": "Ford"
+      },
+      {
+        "vin": "6J9Y19FE1C0KUMZE4",
+        "year": 2022,
+        "make": "Ford"
+      },
+      {
+        "vin": "MU6YEDG36805ZE8K5",
+        "year": 2019,
+        "make": "Nissan"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "0042",
+        "employees": 10,
+        "payroll": 498400.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 3,
+        "payroll": 124600.0
+      }
+    ]
+  }
+}

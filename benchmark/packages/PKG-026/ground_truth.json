@@ -1,0 +1,95 @@
+{
+  "package_id": "PKG-026",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-27",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "machine",
+  "files": [
+    "client_email.eml",
+    "financial_statement.pdf",
+    "gl_supplement.pdf",
+    "loss_run_pinecrestprecisionma.pdf",
+    "payroll_schedule.xlsx",
+    "pinecrestprecisionma_application.pdf",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "future_loss_date",
+    "sov_location_mismatch"
+  ],
+  "benign_variations": [
+    "email_ft"
+  ],
+  "expected_issues": [
+    {
+      "code": "INVALID_LOSS_DATE",
+      "field_path": null,
+      "subject": "PR-2026-65093"
+    },
+    {
+      "code": "LOCATION_NOT_IN_APPLICATION",
+      "field_path": null,
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Pinecrest Precision Machining LLC",
+    "applicant.dba": null,
+    "applicant.fein": "81-1011179",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "5640 Foundry Ln, Columbus, OH 43215",
+    "applicant.years_in_business": 13,
+    "applicant.naics": "332710",
+    "contact.name": "Claire Haddad",
+    "contact.email": "claire.haddad@pinecrestprecision.example",
+    "contact.phone": "(614) 555-0160",
+    "operations.description": "CNC machining of aluminum and steel components for industrial customers",
+    "financials.annual_revenue": 1800000.0,
+    "financials.total_payroll": 499000.0,
+    "workforce.full_time_employees": 10,
+    "workforce.part_time_employees": 1,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Bayview General Insurance",
+    "prior.expiration_date": "2026-12-01",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Powder coating and heat treating sent out to vendors",
+    "gl.subcontracted_cost": 133000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "PR-2026-65093",
+        "date_of_loss": "2026-09-23",
+        "paid": 1500.0,
+        "reserve": 5400.0,
+        "status": "Open"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "3632",
+        "employees": 9,
+        "payroll": 424200.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 74800.0
+      }
+    ]
+  }
+}

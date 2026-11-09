@@ -1,0 +1,83 @@
+{
+  "package_id": "PKG-034",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-31",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "restaurant",
+  "files": [
+    "client_email.eml",
+    "gl_supplement.pdf",
+    "harborlightkitchenta_application.pdf",
+    "loss_run_harborlightkitchenta.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "effective_conflict"
+  ],
+  "benign_variations": [
+    "email_rev",
+    "email_ft"
+  ],
+  "expected_issues": [
+    {
+      "code": "FIELD_CONFLICT",
+      "field_path": "policy.effective_date",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [
+    "policy.effective_date"
+  ],
+  "fields": {
+    "applicant.legal_name": "Harbor Light Kitchen & Tap LLC",
+    "applicant.dba": null,
+    "applicant.fein": "33-3565884",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "6279 Harbor Blvd, Indianapolis, IN 46204",
+    "applicant.years_in_business": 26,
+    "applicant.naics": "722511",
+    "contact.name": "James Petrov",
+    "contact.email": "james.petrov@harborlightkitchen.example",
+    "contact.phone": "(317) 555-0147",
+    "operations.description": "Full-service restaurant with bar, 120 seats, no live entertainment",
+    "financials.annual_revenue": 2610000.0,
+    "financials.total_payroll": 882000.0,
+    "workforce.full_time_employees": 11,
+    "workforce.part_time_employees": 3,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Keystone Assurance Group",
+    "prior.expiration_date": "2026-12-01",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "9079",
+        "employees": 12,
+        "payroll": 793800.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 88200.0
+      }
+    ]
+  }
+}

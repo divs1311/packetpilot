@@ -1,0 +1,134 @@
+{
+  "package_id": "PKG-010",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-23",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "hvac",
+  "files": [
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_oakhollowheatingairi.pdf",
+    "payroll_schedule.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "effective_date_past"
+  ],
+  "benign_variations": [],
+  "expected_issues": [
+    {
+      "code": "EFFECTIVE_DATE_PAST",
+      "field_path": "policy.effective_date",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Oak Hollow Heating & Air Inc.",
+    "applicant.dba": "Oak Hollow Services",
+    "applicant.fein": "46-1530957",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "5115 Cedar Ave, Columbus, OH 43215",
+    "applicant.years_in_business": 27,
+    "applicant.naics": "238220",
+    "contact.name": "Claire Kowalski",
+    "contact.email": "claire.kowalski@oakhollowheatingai.example",
+    "contact.phone": "(614) 555-0113",
+    "operations.description": "Installation and service of residential and light commercial HVAC systems",
+    "financials.annual_revenue": 4800000.0,
+    "financials.total_payroll": 1712000.0,
+    "workforce.full_time_employees": 35,
+    "workforce.part_time_employees": 4,
+    "policy.effective_date": "2026-10-13",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Granite Mutual Insurance Co.",
+    "prior.expiration_date": "2026-10-13",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 7,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Ductwork fabrication and crane lifts subcontracted",
+    "gl.subcontracted_cost": 351000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "WC-2025-40754",
+        "date_of_loss": "2025-02-17",
+        "paid": 23350.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "WC-2025-84766",
+        "date_of_loss": "2025-03-21",
+        "paid": 2700.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [
+      {
+        "vin": "RMXT7TA29NKT2AZWG",
+        "year": 2016,
+        "make": "GMC"
+      },
+      {
+        "vin": "RLBDSWTF4AG7EDPT2",
+        "year": 2019,
+        "make": "Ford"
+      },
+      {
+        "vin": "5MMT94B29CY9UV2U7",
+        "year": 2021,
+        "make": "Ford"
+      },
+      {
+        "vin": "WN7RR0T9XULBV73EK",
+        "year": 2015,
+        "make": "Ford"
+      },
+      {
+        "vin": "7XHRFG51XG7X5S0CG",
+        "year": 2021,
+        "make": "Ford"
+      },
+      {
+        "vin": "HKDY0NJW6EUXUPMW4",
+        "year": 2025,
+        "make": "Ford"
+      },
+      {
+        "vin": "18HE4DF31D5HLATEM",
+        "year": 2025,
+        "make": "GMC"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "5537",
+        "employees": 29,
+        "payroll": 1284000.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 3,
+        "payroll": 171200.0
+      },
+      {
+        "class_code": "8742",
+        "employees": 7,
+        "payroll": 256800.0
+      }
+    ]
+  }
+}

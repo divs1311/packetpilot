@@ -1,0 +1,116 @@
+{
+  "package_id": "PKG-037",
+  "style": "C",
+  "scanned": false,
+  "as_of": "2026-10-18",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "plumbing",
+  "files": [
+    "client_email.eml",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "intake_form_kestrelplumbinginc.pdf",
+    "loss_run_kestrelplumbinginc.pdf",
+    "payroll_schedule.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "revenue_conflict",
+    "coverage_gap"
+  ],
+  "benign_variations": [
+    "email_eff",
+    "email_ft"
+  ],
+  "expected_issues": [
+    {
+      "code": "FIELD_CONFLICT",
+      "field_path": "financials.annual_revenue",
+      "subject": null
+    },
+    {
+      "code": "PRIOR_COVERAGE_GAP",
+      "field_path": "prior.expiration_date",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [
+    "financials.annual_revenue"
+  ],
+  "fields": {
+    "applicant.legal_name": "Kestrel Plumbing Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "35-1894917",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "7673 Lakeview Dr, Raleigh, NC 27601",
+    "applicant.years_in_business": 17,
+    "applicant.naics": "238220",
+    "contact.name": "Victor Rossi",
+    "contact.email": "victor.rossi@kestrelplumbing.example",
+    "contact.phone": "(919) 555-0143",
+    "operations.description": "Residential plumbing repair, water heater and fixture installation",
+    "financials.annual_revenue": 1400000.0,
+    "financials.total_payroll": 456000.0,
+    "workforce.full_time_employees": 6,
+    "workforce.part_time_employees": 1,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Northstar Indemnity Corp.",
+    "prior.expiration_date": "2026-10-31",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": 5,
+    "gl.subcontractors_used": false,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": null
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [
+      {
+        "vin": "Y12NDPMS7BP8UGMDJ",
+        "year": 2017,
+        "make": "Ford"
+      },
+      {
+        "vin": "WU2KD91HXYE7BHBX9",
+        "year": 2020,
+        "make": "Nissan"
+      },
+      {
+        "vin": "EN3P155R2YUMDUBUV",
+        "year": 2016,
+        "make": "Ford"
+      },
+      {
+        "vin": "DWA8FMSB17CVUW1DG",
+        "year": 2026,
+        "make": "Isuzu"
+      },
+      {
+        "vin": "DVT3YWHR1KZLYZPH3",
+        "year": 2022,
+        "make": "Toyota"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "5183",
+        "employees": 5,
+        "payroll": 387600.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 68400.0
+      }
+    ]
+  }
+}

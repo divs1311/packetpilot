@@ -1,0 +1,88 @@
+{
+  "package_id": "PKG-025",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-30",
+  "lines": [
+    "GL",
+    "WC"
+  ],
+  "industry": "landscaping",
+  "files": [
+    "client_email.eml",
+    "financial_statement.pdf",
+    "gl_supplement.pdf",
+    "granitepeaklandscapi_application.pdf",
+    "loss_run_granitepeaklandscapi.pdf",
+    "payroll_schedule.xlsx"
+  ],
+  "defects": [
+    "effective_date_past"
+  ],
+  "benign_variations": [
+    "email_ft",
+    "email_claim",
+    "email_rev"
+  ],
+  "expected_issues": [
+    {
+      "code": "EFFECTIVE_DATE_PAST",
+      "field_path": "policy.effective_date",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Granite Peak Landscaping Partners",
+    "applicant.dba": null,
+    "applicant.fein": "88-8018800",
+    "applicant.entity_type": "Partnership",
+    "applicant.mailing_address": "1188 Market St, Denver, CO 80202",
+    "applicant.years_in_business": 3,
+    "applicant.naics": "561730",
+    "contact.name": "Aisha Ellison",
+    "contact.email": "aisha.ellison@granitepeaklandsca.example",
+    "contact.phone": "(303) 555-0127",
+    "operations.description": "Residential and commercial lawn care, landscaping and snow removal",
+    "financials.annual_revenue": 2950000.0,
+    "financials.total_payroll": 954000.0,
+    "workforce.full_time_employees": 19,
+    "workforce.part_time_employees": 2,
+    "policy.effective_date": "2026-10-13",
+    "policy.lines_requested": [
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Bayview General Insurance",
+    "prior.expiration_date": "2026-10-13",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Tree removal over 20 ft subcontracted to licensed arborists",
+    "gl.subcontracted_cost": 120000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "GL-2025-98285",
+        "date_of_loss": "2025-09-15",
+        "paid": 2050.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "0042",
+        "employees": 16,
+        "payroll": 763200.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 5,
+        "payroll": 190800.0
+      }
+    ]
+  }
+}

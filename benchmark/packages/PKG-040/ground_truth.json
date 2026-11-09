@@ -1,0 +1,88 @@
+{
+  "package_id": "PKG-040",
+  "style": "C",
+  "scanned": false,
+  "as_of": "2026-10-31",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "autorepair",
+  "files": [
+    "client_email.eml",
+    "gl_supplement.pdf",
+    "intake_form_maplegroveautocarell.pdf",
+    "loss_run_maplegroveautocarell.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "missing_explanation",
+    "payroll_mismatch"
+  ],
+  "benign_variations": [
+    "email_eff",
+    "email_ft",
+    "supplement_name_variant"
+  ],
+  "expected_issues": [
+    {
+      "code": "INCOMPLETE_EXPLANATION",
+      "field_path": "gl.subcontractor_explanation",
+      "subject": null
+    },
+    {
+      "code": "PAYROLL_SCHEDULE_MISMATCH",
+      "field_path": "financials.total_payroll",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Maple Grove Auto Care LLC",
+    "applicant.dba": null,
+    "applicant.fein": "27-6900175",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "8401 Harbor Blvd, Phoenix, AZ 85004",
+    "applicant.years_in_business": 25,
+    "applicant.naics": "811111",
+    "contact.name": "Mei Alvarez",
+    "contact.email": "mei.alvarez@maplegroveautocare.example",
+    "contact.phone": "(602) 555-0180",
+    "operations.description": "General automotive repair and maintenance, no towing or body work",
+    "financials.annual_revenue": 1350000.0,
+    "financials.total_payroll": 454000.0,
+    "workforce.full_time_employees": 7,
+    "workforce.part_time_employees": 2,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Keystone Assurance Group",
+    "prior.expiration_date": "2026-12-01",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": 68000.0
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "8380",
+        "employees": 7,
+        "payroll": 328000.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 57900.0
+      }
+    ]
+  }
+}

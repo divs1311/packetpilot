@@ -1,0 +1,138 @@
+{
+  "package_id": "PKG-015",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-16",
+  "lines": [
+    "AUTO",
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "plumbing",
+  "files": [
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_redrockplumbinginc.pdf",
+    "payroll_schedule.xlsx",
+    "statement_of_values.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "duplicate_claim",
+    "duplicate_vin"
+  ],
+  "benign_variations": [],
+  "expected_issues": [
+    {
+      "code": "DUPLICATE_CLAIM",
+      "field_path": null,
+      "subject": "AU-2025-18455"
+    },
+    {
+      "code": "DUPLICATE_VIN",
+      "field_path": null,
+      "subject": "4D8XY6BR44J8YS2SR"
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Red Rock Plumbing Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "41-2173875",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "287 Market St, Richmond, VA 23219",
+    "applicant.years_in_business": 12,
+    "applicant.naics": "238220",
+    "contact.name": "Peter Kowalski",
+    "contact.email": "peter.kowalski@redrockplumbing.example",
+    "contact.phone": "(804) 555-0117",
+    "operations.description": "Residential plumbing repair, water heater and fixture installation",
+    "financials.annual_revenue": 1080000.0,
+    "financials.total_payroll": 371000.0,
+    "workforce.full_time_employees": 5,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2026-12-14",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Lakeside Casualty Company",
+    "prior.expiration_date": "2026-12-14",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 7,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Excavation for sewer line replacement subcontracted",
+    "gl.subcontracted_cost": 78000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "AU-2025-18455",
+        "date_of_loss": "2025-05-16",
+        "paid": 1500.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "AU-2025-18455",
+        "date_of_loss": "2025-05-16",
+        "paid": 1500.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [
+      {
+        "vin": "4D8XY6BR44J8YS2SR",
+        "year": 2023,
+        "make": "Ford"
+      },
+      {
+        "vin": "4D8XY6BR44J8YS2SR",
+        "year": 2026,
+        "make": "Isuzu"
+      },
+      {
+        "vin": "KXW5F2937PPP0ERVV",
+        "year": 2024,
+        "make": "Toyota"
+      },
+      {
+        "vin": "T65DLY337K508E7TG",
+        "year": 2025,
+        "make": "Ram"
+      },
+      {
+        "vin": "DBEFP9BY25NZA55YZ",
+        "year": 2019,
+        "make": "Ford"
+      },
+      {
+        "vin": "XFTZM98G3FAMHABZU",
+        "year": 2018,
+        "make": "Ram"
+      },
+      {
+        "vin": "U9DZ667XXWUSPYDNA",
+        "year": 2026,
+        "make": "Isuzu"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "5183",
+        "employees": 4,
+        "payroll": 315400.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 1,
+        "payroll": 55600.0
+      }
+    ]
+  }
+}

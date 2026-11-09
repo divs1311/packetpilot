@@ -1,0 +1,128 @@
+{
+  "package_id": "PKG-030",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-14",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "hvac",
+  "files": [
+    "client_email.eml",
+    "financial_statement.pdf",
+    "gl_supplement.pdf",
+    "harborlightheatingai_application.pdf",
+    "loss_run_harborlightheatingai.pdf",
+    "payroll_schedule.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [],
+  "benign_variations": [
+    "email_rev",
+    "email_claim",
+    "email_eff",
+    "email_ft",
+    "supplement_name_variant"
+  ],
+  "expected_issues": [],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Harbor Light Heating & Air LLC",
+    "applicant.dba": null,
+    "applicant.fein": "26-3756106",
+    "applicant.entity_type": "LLC",
+    "applicant.mailing_address": "5106 Depot St, Nashville, TN 37203",
+    "applicant.years_in_business": 25,
+    "applicant.naics": "238220",
+    "contact.name": "Sofia Alvarez",
+    "contact.email": "sofia.alvarez@harborlightheating.example",
+    "contact.phone": "(615) 555-0115",
+    "operations.description": "Installation and service of residential and light commercial HVAC systems",
+    "financials.annual_revenue": 1050000.0,
+    "financials.total_payroll": 379000.0,
+    "workforce.full_time_employees": 6,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2026-11-01",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Bayview General Insurance",
+    "prior.expiration_date": "2026-11-01",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": 6,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Ductwork fabrication and crane lifts subcontracted",
+    "gl.subcontracted_cost": 82000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "GL-2022-68954",
+        "date_of_loss": "2022-10-23",
+        "paid": 39200.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "AU-2024-61324",
+        "date_of_loss": "2024-11-12",
+        "paid": 18600.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [
+      {
+        "vin": "M7N557TR7HLGTPRJP",
+        "year": 2026,
+        "make": "Ram"
+      },
+      {
+        "vin": "5EKHHKG9XHT60MGYS",
+        "year": 2020,
+        "make": "GMC"
+      },
+      {
+        "vin": "7U3FP5RX0R65UBJEK",
+        "year": 2025,
+        "make": "Isuzu"
+      },
+      {
+        "vin": "0VTYGMUC2TXYVMP6P",
+        "year": 2023,
+        "make": "GMC"
+      },
+      {
+        "vin": "6JEK3JYP6ZFLVRAKB",
+        "year": 2016,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "CS8N0R982A39CDAF3",
+        "year": 2019,
+        "make": "Isuzu"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "5537",
+        "employees": 4,
+        "payroll": 284200.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 1,
+        "payroll": 37900.0
+      },
+      {
+        "class_code": "8742",
+        "employees": 1,
+        "payroll": 56900.0
+      }
+    ]
+  }
+}

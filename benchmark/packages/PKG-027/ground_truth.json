@@ -1,0 +1,70 @@
+{
+  "package_id": "PKG-027",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-10-21",
+  "lines": [
+    "GL",
+    "WC"
+  ],
+  "industry": "plumbing",
+  "files": [
+    "client_email.eml",
+    "financial_statement.pdf",
+    "gl_supplement.pdf",
+    "loss_run_maplegroveplumbingpa.pdf",
+    "maplegroveplumbingpa_application.pdf",
+    "payroll_schedule.xlsx"
+  ],
+  "defects": [],
+  "benign_variations": [
+    "email_eff"
+  ],
+  "expected_issues": [],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Maple Grove Plumbing Partners",
+    "applicant.dba": null,
+    "applicant.fein": "84-5700897",
+    "applicant.entity_type": "Partnership",
+    "applicant.mailing_address": "2893 Depot St, Indianapolis, IN 46204",
+    "applicant.years_in_business": 33,
+    "applicant.naics": "238220",
+    "contact.name": "Raj Chowdhury",
+    "contact.email": "raj.chowdhury@maplegroveplumbing.example",
+    "contact.phone": "(317) 555-0143",
+    "operations.description": "Residential plumbing repair, water heater and fixture installation",
+    "financials.annual_revenue": 1520000.0,
+    "financials.total_payroll": 578000.0,
+    "workforce.full_time_employees": 10,
+    "workforce.part_time_employees": 2,
+    "policy.effective_date": "2026-12-01",
+    "policy.lines_requested": [
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Granite Mutual Insurance Co.",
+    "prior.expiration_date": "2026-12-01",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Excavation for sewer line replacement subcontracted",
+    "gl.subcontracted_cost": 49000.0
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "5183",
+        "employees": 10,
+        "payroll": 491300.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 2,
+        "payroll": 86700.0
+      }
+    ]
+  }
+}

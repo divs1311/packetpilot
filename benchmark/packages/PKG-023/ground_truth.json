@@ -1,0 +1,93 @@
+{
+  "package_id": "PKG-023",
+  "style": "B",
+  "scanned": false,
+  "as_of": "2026-11-01",
+  "lines": [
+    "GL",
+    "PROPERTY",
+    "WC"
+  ],
+  "industry": "machine",
+  "files": [
+    "gl_supplement.pdf",
+    "loss_run_silvercreekprecision.pdf",
+    "silvercreekprecision_application.pdf",
+    "statement_of_values.xlsx"
+  ],
+  "defects": [
+    "duplicate_claim",
+    "missing_payroll_schedule"
+  ],
+  "benign_variations": [],
+  "expected_issues": [
+    {
+      "code": "DUPLICATE_CLAIM",
+      "field_path": null,
+      "subject": "WC-2025-84901"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "field_path": null,
+      "subject": "payroll_schedule"
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Silver Creek Precision Machining Partners",
+    "applicant.dba": null,
+    "applicant.fein": "36-5464855",
+    "applicant.entity_type": "Partnership",
+    "applicant.mailing_address": "3803 Cedar Ave, Madison, WI 53703",
+    "applicant.years_in_business": 25,
+    "applicant.naics": "332710",
+    "contact.name": "Maria Fischer",
+    "contact.email": "maria.fischer@silvercreekprecisi.example",
+    "contact.phone": "(608) 555-0199",
+    "operations.description": "CNC machining of aluminum and steel components for industrial customers",
+    "financials.annual_revenue": 1580000.0,
+    "financials.total_payroll": 568000.0,
+    "workforce.full_time_employees": 10,
+    "workforce.part_time_employees": 1,
+    "policy.effective_date": "2026-11-22",
+    "policy.lines_requested": [
+      "GL",
+      "PROPERTY",
+      "WC"
+    ],
+    "prior.carrier": "Keystone Assurance Group",
+    "prior.expiration_date": "2026-11-22",
+    "loss_history.prior_losses_disclosed": true,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Powder coating and heat treating sent out to vendors",
+    "gl.subcontracted_cost": 83000.0
+  },
+  "records": {
+    "claims": [
+      {
+        "claim_number": "PR-2023-55079",
+        "date_of_loss": "2023-07-25",
+        "paid": 46400.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "WC-2025-84901",
+        "date_of_loss": "2025-06-27",
+        "paid": 19100.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      },
+      {
+        "claim_number": "WC-2025-84901",
+        "date_of_loss": "2025-06-27",
+        "paid": 19100.0,
+        "reserve": 0.0,
+        "status": "Closed"
+      }
+    ],
+    "vehicles": [],
+    "payroll": []
+  }
+}

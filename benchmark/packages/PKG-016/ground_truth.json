@@ -1,0 +1,93 @@
+{
+  "package_id": "PKG-016",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-19",
+  "lines": [
+    "AUTO",
+    "GL",
+    "WC"
+  ],
+  "industry": "janitorial",
+  "files": [
+    "commercial_application.pdf",
+    "gl_supplement.pdf",
+    "loss_run_stonebridgecleanings.pdf",
+    "payroll_schedule.xlsx",
+    "vehicle_schedule.xlsx"
+  ],
+  "defects": [
+    "missing_explanation"
+  ],
+  "benign_variations": [],
+  "expected_issues": [
+    {
+      "code": "INCOMPLETE_EXPLANATION",
+      "field_path": "gl.subcontractor_explanation",
+      "subject": null
+    }
+  ],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Stonebridge Cleaning Services Inc.",
+    "applicant.dba": "Stonebridge Services",
+    "applicant.fein": "27-1441910",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "330 Granite Way, Columbus, OH 43215",
+    "applicant.years_in_business": 11,
+    "applicant.naics": "561720",
+    "contact.name": "Grace Tran",
+    "contact.email": "grace.tran@stonebridgecleanin.example",
+    "contact.phone": "(614) 555-0133",
+    "operations.description": "Commercial janitorial services for offices and medical buildings",
+    "financials.annual_revenue": 860000.0,
+    "financials.total_payroll": 482000.0,
+    "workforce.full_time_employees": 10,
+    "workforce.part_time_employees": 0,
+    "policy.effective_date": "2026-12-28",
+    "policy.lines_requested": [
+      "AUTO",
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Keystone Assurance Group",
+    "prior.expiration_date": "2026-12-28",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": 3,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": null,
+    "gl.subcontracted_cost": 43000.0
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [
+      {
+        "vin": "U9LTJ24082GE4LYYN",
+        "year": 2016,
+        "make": "Chevrolet"
+      },
+      {
+        "vin": "2C2ZG8XZ7R9YPMECZ",
+        "year": 2017,
+        "make": "GMC"
+      },
+      {
+        "vin": "AUD5T14S57CMYPJ25",
+        "year": 2025,
+        "make": "Ram"
+      }
+    ],
+    "payroll": [
+      {
+        "class_code": "9014",
+        "employees": 9,
+        "payroll": 433800.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 1,
+        "payroll": 48200.0
+      }
+    ]
+  }
+}

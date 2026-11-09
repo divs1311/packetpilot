@@ -1,0 +1,67 @@
+{
+  "package_id": "PKG-002",
+  "style": "A",
+  "scanned": false,
+  "as_of": "2026-10-29",
+  "lines": [
+    "GL",
+    "WC"
+  ],
+  "industry": "electrical",
+  "files": [
+    "commercial_application.pdf",
+    "financials_FY.docx",
+    "gl_supplement.pdf",
+    "loss_run_sunfieldelectricinc.pdf",
+    "payroll_schedule.xlsx"
+  ],
+  "defects": [],
+  "benign_variations": [],
+  "expected_issues": [],
+  "conflict_fields": [],
+  "fields": {
+    "applicant.legal_name": "Sunfield Electric Inc.",
+    "applicant.dba": null,
+    "applicant.fein": "54-5896482",
+    "applicant.entity_type": "Corporation",
+    "applicant.mailing_address": "3828 Foundry Ln, Austin, TX 78701",
+    "applicant.years_in_business": 21,
+    "applicant.naics": "238210",
+    "contact.name": "James Alvarez",
+    "contact.email": "james.alvarez@sunfieldelectric.example",
+    "contact.phone": "(512) 555-0115",
+    "operations.description": "Commercial electrical contracting, tenant build-outs and service calls",
+    "financials.annual_revenue": 2670000.0,
+    "financials.total_payroll": 1171000.0,
+    "workforce.full_time_employees": 16,
+    "workforce.part_time_employees": 3,
+    "policy.effective_date": "2026-12-12",
+    "policy.lines_requested": [
+      "GL",
+      "WC"
+    ],
+    "prior.carrier": "Bayview General Insurance",
+    "prior.expiration_date": "2026-12-12",
+    "loss_history.prior_losses_disclosed": false,
+    "auto.vehicle_count": null,
+    "gl.subcontractors_used": true,
+    "gl.subcontractor_explanation": "Trenching and boring subcontracted to excavation firms",
+    "gl.subcontracted_cost": 297000.0
+  },
+  "records": {
+    "claims": [],
+    "vehicles": [],
+    "payroll": [
+      {
+        "class_code": "5190",
+        "employees": 16,
+        "payroll": 995400.0
+      },
+      {
+        "class_code": "8810",
+        "employees": 3,
+        "payroll": 175600.0
+      }
+    ]
+  }
+}
